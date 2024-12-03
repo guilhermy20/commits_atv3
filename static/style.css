@@ -44,6 +44,73 @@ main {
     text-align: center;
 }
 
+/* Container do Login */
+.login-container {
+    background-color: #8b4513; /* Marrom */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #ffd700; /* Dourado */
+}
+
+.login-container label {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.login-container input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.8);
+}
+
+.login-container .btn {
+    background-color: #a0522d;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container .btn:hover {
+    background-color: #6b4226;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.register-link a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
 /* Títulos */
 h1, h2, h3 {
     color: #ffd700; /* Dourado */
